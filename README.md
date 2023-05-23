@@ -1,7 +1,7 @@
 # Black Ops 2 Zombies Gun Game Mod
 This mod adds Gun Game to Black Ops 2 Zombies.
 
-Currently only Transit, Town, and Farm is supported, remaining maps is coming soon.
+Currently only Transit, Town, and Farm is supported, more maps coming soon.
 
 ## How To Install On Plutonium
 1. Head over to [Releases](https://github.com/ElectroGamesYT/BO2-Zombies-Gun-Game-Mod/releases) and download the latest release.

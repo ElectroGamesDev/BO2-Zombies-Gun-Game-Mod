@@ -85,9 +85,13 @@ startGamemode() // TODO: Add code for being demoted, add code to check which map
 
     self.gunsRemainingText = createfontstring("Objective", 1.5);
     self.gunsRemainingText setPoint("LEFT", "CENTER", -418, -10);
+	
+	self.nextGunText setPoint("LEFT", "CENTER", -2000, 10);
+	self.gunsRemainingText setPoint("LEFT", "CENTER", -2000, -10);
 
-    while (true)
+    while (!gameEnded)
     {
+        self endon("disconnect");
         if (self.score < previousScore) nextGun -= (previousScore-self.score);
         previousScore = self.score;
 
